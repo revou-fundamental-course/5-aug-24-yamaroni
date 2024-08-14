@@ -39,11 +39,16 @@
 
                 <div>
                     <h3>Berat Badan</h3>
-                    <input type="number">
+                    <input type="number" id="input-weight">
+                </div>
+
+                <div>
+                    <h3>Tinggi Badan</h3>
+                    <input type="number" id="input-height">
                 </div>
 
                 <div class="form-btn-container">
-                    <button class="button bg-cornsilk">Hitung BMI</button>
+                    <button class="button bg-cornsilk" type="button" onclick="formValidate()">Hitung BMI</button>
                     <button class="button bg-reset">Reset</button>
                 </div>
             </form>
@@ -88,6 +93,8 @@
     <footer>
         <p>Made by Yama</p>
     </footer>
+
+    <script src="js\script.js"></script>
 </body>
 
 </html>
